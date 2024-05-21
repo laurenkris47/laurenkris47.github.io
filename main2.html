@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Awal</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+        <form action="main3.html" method="post">
+            <div>
+                <p>Tipe Mobil</p>
+                <input type="radio" id="manual" name="tipe_mobil" value="manual">
+                <label for="manual">Manual</label><br>
+                <input type="radio" id="matic" name="tipe_mobil" value="matic">
+                <label for="matic">Matic</label><br>
+            </div>
+            
+            <div>
+                <p>Jenis Servis</p>
+                <input type="checkbox" id="rem-mobil" name="jenis_servis" value="rem-mobil">
+                <label for="rem-mobil">Servis Rem Mobil</label><br>
+                
+                <input type="checkbox" id="pintu-mobil" name="jenis_servis" value="pintu-mobil">
+                <label for="pintu-mobil">Servis Pintu Mobil</label><br>
+        
+                <input type="checkbox" id="audio-mobil" name="jenis_servis" value="audio-mobil">
+                <label for="audio-mobil">Servis Audio Mobil</label><br>
+                
+                <input type="checkbox" id="head-unit" name="jenis_servis" value="head-unit">
+                <label for="head-unit">Servis Head Unit</label><br>
+        
+                <input type="checkbox" id="lampu" name="jenis_servis" value="lampu">
+                <label for="lampu">Servis Lampu</label><br>
+                
+                <input type="checkbox" id="mesin" name="jenis_servis" value="mesin">
+                <label for="mesin">Servis Mesin</label><br>
+        
+                <input type="checkbox" id="kaca-mobil" name="jenis_servis" value="kaca-mobil">
+                <label for="kaca-mobil">Servis Kaca Mobil</label><br>
+                
+                <input type="checkbox" id="jok-mobil" name="jenis_servis" value="jok-mobil">
+                <label for="jok-mobil">Servis Jok Mobil</label><br>
+            </div>
+            
+            <div class="container">
+                <p>Waktu Booking Servis</p>
+                <select class="select" name="waktu_booking">
+                    <option value="">Pilih Estimasi Waktu</option>
+                    <option value="09:00">09.00</option>
+                    <option value="11:00">11.00</option>
+                    <option value="13:00">13.00</option>
+                    <option value="14:00">14.00</option>
+                </select>
+            </div>
+            
+            <div>
+                <p>Komentar Tambahan</p>
+                <label for="comments">Komentar:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+            </div>
+
+            <input type="submit" class="submit-button" value="Submit" formaction="main3.html">
+
+            <input type="reset" class="reset-button" value="Reset">
+          
+        </form>
+        </div>
+    </main>
+
+</body>
+</html>
